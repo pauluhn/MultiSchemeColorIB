@@ -13,6 +13,12 @@
 		9B55FD10265C13E40067D1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B55FD0E265C13E40067D1A6 /* Main.storyboard */; };
 		9B55FD12265C13E60067D1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B55FD11265C13E60067D1A6 /* Assets.xcassets */; };
 		9B55FD15265C13E60067D1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B55FD13265C13E60067D1A6 /* LaunchScreen.storyboard */; };
+		9B55FD1E265C14A30067D1A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B55FD0C265C13E40067D1A6 /* ViewController.swift */; };
+		9B55FD1F265C14A30067D1A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B55FD08265C13E40067D1A6 /* AppDelegate.swift */; };
+		9B55FD20265C14A30067D1A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B55FD0A265C13E40067D1A6 /* SceneDelegate.swift */; };
+		9B55FD25265C14A30067D1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B55FD0E265C13E40067D1A6 /* Main.storyboard */; };
+		9B55FD2D265C15900067D1A6 /* Blue.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B55FD2B265C152A0067D1A6 /* Blue.xcassets */; };
+		9B55FD31265C15EA0067D1A6 /* Blue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B55FD30265C15EA0067D1A6 /* Blue.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,21 @@
 		9B55FD11265C13E60067D1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B55FD14265C13E60067D1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B55FD16265C13E60067D1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B55FD29265C14A30067D1A6 /* Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B55FD2A265C14A40067D1A6 /* Blue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Blue-Info.plist"; path = "/Users/paulu/Projects/MultiSchemeColorIB/Blue-Info.plist"; sourceTree = "<absolute>"; };
+		9B55FD2B265C152A0067D1A6 /* Blue.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Blue.xcassets; sourceTree = "<group>"; };
+		9B55FD30265C15EA0067D1A6 /* Blue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Blue.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9B55FD02265C13E40067D1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B55FD21265C14A30067D1A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				9B55FD05265C13E40067D1A6 /* MultiSchemeColorIB.app */,
+				9B55FD29265C14A30067D1A6 /* Blue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +79,11 @@
 				9B55FD0C265C13E40067D1A6 /* ViewController.swift */,
 				9B55FD0E265C13E40067D1A6 /* Main.storyboard */,
 				9B55FD11265C13E60067D1A6 /* Assets.xcassets */,
+				9B55FD2B265C152A0067D1A6 /* Blue.xcassets */,
 				9B55FD13265C13E60067D1A6 /* LaunchScreen.storyboard */,
+				9B55FD30265C15EA0067D1A6 /* Blue.storyboard */,
 				9B55FD16265C13E60067D1A6 /* Info.plist */,
+				9B55FD2A265C14A40067D1A6 /* Blue-Info.plist */,
 			);
 			path = MultiSchemeColorIB;
 			sourceTree = "<group>";
@@ -85,6 +106,23 @@
 			name = MultiSchemeColorIB;
 			productName = MultiSchemeColorIB;
 			productReference = 9B55FD05265C13E40067D1A6 /* MultiSchemeColorIB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B55FD1C265C14A30067D1A6 /* Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B55FD26265C14A30067D1A6 /* Build configuration list for PBXNativeTarget "Blue" */;
+			buildPhases = (
+				9B55FD1D265C14A30067D1A6 /* Sources */,
+				9B55FD21265C14A30067D1A6 /* Frameworks */,
+				9B55FD22265C14A30067D1A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blue;
+			productName = MultiSchemeColorIB;
+			productReference = 9B55FD29265C14A30067D1A6 /* Blue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,6 +153,7 @@
 			projectRoot = "";
 			targets = (
 				9B55FD04265C13E40067D1A6 /* MultiSchemeColorIB */,
+				9B55FD1C265C14A30067D1A6 /* Blue */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +169,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B55FD22265C14A30067D1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B55FD2D265C15900067D1A6 /* Blue.xcassets in Resources */,
+				9B55FD31265C15EA0067D1A6 /* Blue.storyboard in Resources */,
+				9B55FD25265C14A30067D1A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,6 +189,16 @@
 				9B55FD0D265C13E40067D1A6 /* ViewController.swift in Sources */,
 				9B55FD09265C13E40067D1A6 /* AppDelegate.swift in Sources */,
 				9B55FD0B265C13E40067D1A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B55FD1D265C14A30067D1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B55FD1E265C14A30067D1A6 /* ViewController.swift in Sources */,
+				9B55FD1F265C14A30067D1A6 /* AppDelegate.swift in Sources */,
+				9B55FD20265C14A30067D1A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +378,44 @@
 			};
 			name = Release;
 		};
+		9B55FD27265C14A30067D1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8N6N647SF;
+				INFOPLIST_FILE = "Blue-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.mojio.MultiSchemeColorIB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B55FD28265C14A30067D1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8N6N647SF;
+				INFOPLIST_FILE = "Blue-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.mojio.MultiSchemeColorIB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +433,15 @@
 			buildConfigurations = (
 				9B55FD1A265C13E60067D1A6 /* Debug */,
 				9B55FD1B265C13E60067D1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B55FD26265C14A30067D1A6 /* Build configuration list for PBXNativeTarget "Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B55FD27265C14A30067D1A6 /* Debug */,
+				9B55FD28265C14A30067D1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
